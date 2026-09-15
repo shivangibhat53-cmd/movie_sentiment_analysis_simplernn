@@ -1,0 +1,35 @@
+# ==========================================
+# 1. Virtual Environments (CRITICAL)
+# ==========================================
+# This blocks your local 10,000+ Conda files from syncing
+venv/
+env/
+.venv/
+
+# ==========================================
+# 2. Large Model Artifacts & Data
+# ==========================================
+# Keeps heavy binary weights out of source control
+*.h5
+*.keras
+*.pkl
+*.npy
+*.npz
+
+# ==========================================
+# 3. Python Cache & Logs
+# ==========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.log
+
+# ==========================================
+# 4. IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
