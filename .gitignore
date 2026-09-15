@@ -10,7 +10,6 @@ env/
 # 2. Large Model Artifacts & Data
 # ==========================================
 # Keeps heavy binary weights out of source control
-*.h5
 *.keras
 *.pkl
 *.npy
