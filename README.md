@@ -186,10 +186,10 @@ git clone <repo-url>
 cd movie_sentiment_analysis_simplernn
 ```
 
-### 2. Create a virtual environment
+### 2. Create a conda environment
 ```bash
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
+conda create -p venv python==3.10 -y
+conda activate venv/
 ```
 
 ### 3. Install dependencies
